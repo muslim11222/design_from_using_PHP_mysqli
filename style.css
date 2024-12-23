@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lexend:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Lexend", serif;
+}
+.container {
+     width: 100%;
+     height: 90vh;
+     background: #131419;
+     padding-top: 70px;
+}
+.box {
+   width: 320px;
+   height: 400px;
+   overflow: hidden;
+   background-color: #131419;
+   box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 15px rgba(0,0,0,0.5);
+   margin: auto;
+   padding: 40px;
+   border-radius: 10px;
+}
+.heading h2 {
+     color: #c5c7c6;
+     text-align: center;
+     padding-bottom: 30px;
+     font-size: 40px;
+}
+.allInput input {
+     width: 300px;
+     height: auto;
+     padding: 10px 15px 10px 15px;
+     margin-bottom: 15px;
+     border-radius: 30px;
+     border: none;
+     background: none;
+     color: #c5c7c6;
+     box-shadow: inset -2px -2px 6px rgba(255, 255, 255,0.1), inset 2px 2px 6px rgba(0, 0, 0,0.8);
+}
+.button input {
+     box-shadow: inset -2px -2px 6px rgba(255, 255, 255,0.1), inset 2px 2px 6px rgba(0, 0, 0,0.8);
+     width: 100%;
+     height: auto;
+     padding: 12px 17px 12px 17px;
+     background: none;
+     border: none;
+     border-radius: 30px;
+     outline: none;
+     color: #dbdbdbed;
+}
+.button button a {
+     color: #dbdbdbed;
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: 600;
+}
+.dowtext {
+     text-align: center;
+     color: #dbdbdbed;
+     font-size: 16px;
+}
+.clickhere a {
+     color: #dbdbdbed;
+     margin-top: 10px;
+     display: block;
+}
